@@ -9,7 +9,6 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 3. 座標の前後差分から状態を判定する。<br>
 このとき、以下のような制約をつけている。<br>
 大前提: <br>
-<br>
 &nbsp&nbsp&nbsp&nbsp転倒イベントの一連の動作は、必ず Normal --> Fall --> Recovering --> Normal の順で発生しなければならず、<br>
 &nbsp&nbsp&nbsp&nbsp例えばNormal-->Recovering,Fall-->Normalといった状態遷移は行わない。<br>
 <br>
