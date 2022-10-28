@@ -4,7 +4,6 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 (x,y)座標を取得し前後の差分から状態を判定していますが、詳細なアルゴリズムについての説明は省きます。<br>
 <br>
 -------おおまかな仕組み------------------------------------------------------------------------------<br>
-<br>
 1. 骨格検知ソフトから(x,y)座標を受け取る<br>
 2. openCVでとりあえず座標を描画する。<br>
 3. 座標の前後差分から状態を判定する。<br>
@@ -13,7 +12,7 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 <br>
 &nbsp&nbsp&nbsp&nbsp転倒イベントの一連の動作は、必ず Normal --> Fall --> Recovering --> Normal の順で発生しなければならず、<br>
 &nbsp&nbsp&nbsp&nbsp例えばNormal-->Recovering,Fall-->Normalといった状態遷移は行わない。<br>
-  <br>
+<br>
 &nbsp&nbsp&nbsp&nbspa. 前後が　Fall --> Normal であった場合には、状態を Fall に書き換える。<br>
 &nbsp&nbsp&nbsp&nbspb.　　"" が Normal --> Recovering であった場合には、状態を Normal に書き換える。<br>
 &nbsp&nbsp&nbsp&nbspc. "" が Recovering --> Fall であった場合には、状態をRecovering に書き換える。<br>
