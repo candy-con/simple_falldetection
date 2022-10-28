@@ -14,8 +14,8 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
     必ず Normal --> Fall --> Recovering --> Normal の順で発生しなければならず、<br>
     例えばNormal-->Recovering,Fall-->Normalといった状態遷移は行わない。</li>
   <li>a. 前後が　Fall --> Normal であった場合には、状態を Fall に書き換える。</li>
-  <li>b.　　"" が Normal --> Recovering であった場合には、状態を Normal に書き換える。</li>
-  <li>c. "" が Recovering --> Fall であった場合には、状態をRecovering に書き換える。</li>
+  <li>b.　　前後が Normal --> Recovering であった場合には、状態を Normal に書き換える。</li>
+  <li>c. 前後が Recovering --> Fall であった場合には、状態をRecovering に書き換える。</li>
   </ul>
 4. 取得した状態に応じて、各フレームごとにopenCVで画面左上に状態の描画を行う。<br>
 5. 出力される骨格検知の動画に転倒判定が反映される。<br>
