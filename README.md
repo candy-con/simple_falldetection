@@ -22,10 +22,8 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 <br>
 <h2>動かしてみたらこんな感じ</h2>
 
+[![test_video](http://img.youtube.com/vi/9F2J1XaK-Iw/0.jpg)](http://www.youtube.com/watch?v=9F2J1XaK-Iw)
 
-
-
-https://user-images.githubusercontent.com/87641789/198750019-cfd516cb-2f8e-4974-a236-5b1ab03be0d8.mp4
 
 
 
