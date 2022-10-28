@@ -22,7 +22,9 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 <br>
 <h2>動かしてみたらこんな感じ</h2>
 <br>
-画像をクリックしたらyoutubeの動画に飛ぶよ。<br>
+画像をクリックしたらyoutubeの動画に飛ぶよ。
+
+
 [![test_video](http://img.youtube.com/vi/9F2J1XaK-Iw/0.jpg)](http://www.youtube.com/watch?v=9F2J1XaK-Iw)
 
 
