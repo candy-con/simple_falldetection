@@ -21,7 +21,8 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 5. 出力される骨格検知の動画に転倒判定が反映される。<br>
 <br>
 <h2>動かしてみたらこんな感じ</h2>
-
+<br>
+画像をクリックしたらyoutubeの動画に飛ぶよ。<br>
 [![test_video](http://img.youtube.com/vi/9F2J1XaK-Iw/0.jpg)](http://www.youtube.com/watch?v=9F2J1XaK-Iw)
 
 
