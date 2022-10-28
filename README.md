@@ -9,13 +9,12 @@ Openpose等適当なソフトを試したい方で、(x,y)座標を利用して�
 2. openCVでとりあえず座標を描画する。<br>
 3. 座標の前後差分から状態を判定する。<br>
   このとき、以下のような制約をつけている。<br>
-  大前提: <br>
   転倒イベントの一連の動作は、必ず Normal --> Fall --> Recovering --> Normal の順で発生しなければならず、<br>
   例えばNormal-->Recovering,Fall-->Normalといった状態遷移は行わない。<br>
-<br>
+  
   a. 前後が　Fall --> Normal であった場合には、状態を Fall に書き換える。<br>
   b.　　"" が Normal --> Recovering であった場合には、状態を Normal に書き換える。<br>
   c. "" が Recovering --> Fall であった場合には、状態をRecovering に書き換える。<br>
-<br>
+  
 4. 取得した状態に応じて、各フレームごとにopenCVで画面左上に状態の描画を行う。<br>
 5. 出力される骨格検知の動画に転倒判定が反映される。<br>
